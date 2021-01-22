@@ -1,0 +1,21 @@
+speed(0)
+penup()
+setposition(-100,-200)
+for i in range(3):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+penup()
+setposition(-50,-115)
+for i in range(2):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+penup()
+setposition(0,-30)
+for i in range(1):
+    pendown()
+    circle(50)
+    penup()

@@ -1,0 +1,38 @@
+speed(0)
+#blue
+def draw_beads():
+    for i in range (12):
+        penup()
+        color("blue")
+        forward(100)
+        pendown()
+        begin_fill()
+        circle(10)
+        end_fill()
+        penup()
+        backward(100)
+        left(10)
+        #red
+        penup()
+        color("red")
+        forward(100)
+        pendown()
+        begin_fill()
+        circle(10)
+        end_fill()
+        penup()
+        backward(100)
+        left(10)
+        #purple
+        penup()
+        color("purple")
+        forward(100)
+        pendown()
+        begin_fill()
+        circle(10)
+        end_fill()
+        penup()
+        backward(100)
+        left(10)
+
+draw_beads()
